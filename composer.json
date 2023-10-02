@@ -1,0 +1,30 @@
+{
+  "name": "eptic/laravel-latte",
+  "description": "Latte template for Laravel applications.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Eptic\\Latte\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Cristian Bilu",
+      "email": "cristian@eptic.ro"
+    }
+  ],
+  "require": {
+    "php": "^8.2",
+    "illuminate/contracts": "^10.0",
+    "illuminate/support": "^10.25",
+    "latte/latte": "^3.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Eptic\\Latte\\LatteServiceProvider"
+      ]
+    }
+  }
+}
