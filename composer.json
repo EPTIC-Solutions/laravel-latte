@@ -27,5 +27,7 @@
         "Eptic\\Latte\\LatteServiceProvider"
       ]
     }
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
