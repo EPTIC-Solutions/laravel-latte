@@ -92,11 +92,11 @@ class ViewFactory implements \Illuminate\Contracts\View\Factory
 
     public function addNamespace($namespace, $hints)
     {
-        throw new \Exception('Not implemented');
+        //
     }
 
     public function replaceNamespace($namespace, $hints)
     {
-        throw new \Exception('Not implemented');
+        //
     }
 }
