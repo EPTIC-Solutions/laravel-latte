@@ -8,6 +8,7 @@
       "Eptic\\Latte\\": "src/"
     }
   },
+  "homepage": "https://github.com/EPTIC-Solutions/laravel-latte",
   "authors": [
     {
       "name": "Cristian Bilu",
